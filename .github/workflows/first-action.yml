@@ -1,0 +1,14 @@
+name: First Workflow
+
+# trigger
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    # runner / environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello"
+      - name: Print goodbye
+        run: echo "Stay safe out there!"
