@@ -11,4 +11,6 @@ jobs:
       - name: Print greeting
         run: echo "Hello"
       - name: Print goodbye
-        run: echo "Stay safe out there!"
+        run: |
+          echo "Stay safe out there!"
+          echo "Bye"
